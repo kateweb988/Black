@@ -390,7 +390,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
   margin-right: 11px; }
 
 .custom-checkbox:checked + label::before {
-  background: url(/img/check.svg) no-repeat center center; }
+  background: url(../img/check.svg) no-repeat center center; }
 
 .swiper-pagination {
   display: flex;
@@ -474,7 +474,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
   height: 5px;
   text-align: center;
   vertical-align: top;
-  background: url(/img/down-arrow.png) no-repeat !important;
+  background: url(../img/down-arrow.png) no-repeat !important;
   position: absolute;
   right: -16px;
   top: 8px; }
@@ -649,7 +649,7 @@ ul.info li {
   content: "";
   position: absolute;
   right: 0px;
-  background: url(/img/down-arrow.png) no-repeat !important;
+  background: url(../img/down-arrow.png) no-repeat !important;
   width: 7px;
   left: inherit;
   height: 5px;
@@ -662,7 +662,7 @@ ul.info li {
   content: "";
   position: absolute;
   right: 0px;
-  background: url(/img/down-arrow.png) no-repeat !important;
+  background: url(../img/down-arrow.png) no-repeat !important;
   width: 7px;
   left: inherit;
   height: 5px;
@@ -1143,7 +1143,7 @@ input.error {
   background: transparent; }
 
 .custom-checkbox:checked + label::before {
-  background: url(/img/check.svg) no-repeat center center;
+  background: url(../img/check.svg) no-repeat center center;
   background-color: #3347ff;
   border: 1px solid #3347ff;
   opacity: 1; }
@@ -1162,7 +1162,7 @@ input.error {
       border-bottom: 1px solid #3347ff; }
 
 input.valid {
-  background: url(/img/check2.svg) no-repeat 98% 50%; }
+  background: url(../img/check2.svg) no-repeat 98% 50%; }
 
 button:disabled {
   opacity: 0.5;
@@ -1305,7 +1305,7 @@ button:disabled {
   opacity: 0;
   z-index: -1;
   top: 0;
-  background: url(/img/bg.svg) no-repeat center center;
+  background: url(../img/bg.svg) no-repeat center center;
   left: 0; }
 
 .order__item .custom-checkbox:checked + label {
@@ -1313,7 +1313,7 @@ button:disabled {
   box-shadow: 0px 4px 32px 0px rgba(51, 71, 255, 0.6); }
 
 .order__item .custom-checkbox:checked + label::before {
-  background: url(/img/check3.svg) no-repeat center center;
+  background: url(../img/check3.svg) no-repeat center center;
   border: 1px solid white; }
 
 .order__item .custom-checkbox:checked + label::after {
@@ -2120,7 +2120,7 @@ button:disabled {
   .popup__text {
     font-size: 16px; }
   input.valid {
-    background: url(/img/check2.svg) no-repeat 94% 50%; }
+    background: url(../img/check2.svg) no-repeat 94% 50%; }
   .popup__form textarea, .popup__form input {
     font-size: 15px; }
   .page h1 {
