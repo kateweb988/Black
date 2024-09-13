@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+	<title>Стол для геймеров Блэкборт</title>
+	<meta name="keywords" content="">
+	<meta name="description"
+		content="Функциональный компьютерный стол для геймеров из серии Блэкборт. Премиальное качество и комфорт.">
+	<!-- Favicon -->
+	<!-- <link rel="icon" href="img/shortcut.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/shortcut.png" type="image/x-icon"> -->
+	<!-- OG -->
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="body-wrap page">
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__box q">
+						<a href="main.html" class="nav__logo">
+							<img src="img/logo.svg" alt="">
+						</a>
+						<div class="nav__info q">
+							<ul>
+								<li>
+									<a href="#">
+										Серия Блэкборт
+									</a>
+								</li>
+								<li>
+									<a href="order.html">
+										Заказ
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										О нас
+									</a>
+								</li>
+							</ul>
+							<a href="#" class="nav__btn btn">
+								Обратный звонок
+							</a>
+						</div>
+						<div class="menu-btn">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="#">
+							Серия Блэкборт
+						</a>
+					</li>
+					<li>
+						<a href="order.html">
+							Заказ
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							О нас
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<section class="order policy" id="order">
+			<div class="container">
+				<img src="img/logo2.svg" alt="" class="order__logo">
+				<p class="order__sub">
+					Выберите материал столешницы, фасадов и полок:
+				</p>
+				<form action="success3.php" class="popup__form js-form3" id="popupResult3" method="post">
+					<div class="order__row q">
+						<div class="order__item">
+							<input class="form-check-input custom-checkbox form__field" checked type="radio" name="item"
+								id="form11" value="МДФ">
+							<label class="form-check-label " for="form11">
+								<div class="order__block q">
+									<img src="img/pic1.png" alt="">
+								</div>
+								<p class="order__text">
+									Стол для геймеров серии Блэкборт
+								</p>
+								<p class="order__name">
+									МДФ
+								</p>
+								<p class="order__sum">
+									370 000 руб.
+								</p>
+							</label>
+						</div>
+						<div class="order__item">
+							<input class="form-check-input custom-checkbox form__field" type="radio" name="item" id="form22"
+								value="Керамогранит">
+							<label class="form-check-label " for="form22">
+								<div class="order__block q">
+									<img src="img/pic1.png" alt="">
+								</div>
+								<p class="order__text">
+									Стол для геймеров серии Блэкборт
+								</p>
+								<p class="order__name">
+									Керамогранит
+								</p>
+								<p class="order__text">
+									450 000 руб.
+								</p>
+							</label>
+						</div>
+					</div>
+					<p class="order__per">
+						Для заказа и консультации о времени изготовления, доставки, установки оставьте ваш телефон и/или адрес
+						электронной почты, оператор ответит на ваши вопросы, составит договор, согласует место и время
+						доставки.
+					</p>
+
+					<div class="order__flex q">
+						<input type="text" placeholder="Имя" class="form__field" name="name" required="">
+					</div>
+					<div class="order__flex q">
+						<input type="tel" placeholder="Телефон" class="tel form__field" name="tel" required="">
+						<p>
+							Номер телефона, по которому вам удобно принять обратный звонок. <br>
+							Вы можете позвонить сами по бесплатному номеру <br> <span> 8–800–000000</span>
+						</p>
+					</div>
+					<div class="order__flex q">
+						<textarea name="text" name="text" placeholder="Комментарий по времени звонка"
+							class="form__field"></textarea>
+						<p>
+							Время звонка оператора <span> с 10 до 20 часов.</span> <br> В комментарии вы можете указать город
+							или часовой пояс,
+							чтобы оператор позвонил в соответствующий вашему поясу период времени. Также, можно оставить
+							пожелание по времени звонка
+						</p>
+					</div>
+					<div class="order__flex q">
+						<input type="email" placeholder="E-mail" name="email" class="form__field" required="">
+					</div>
+					<div class="popup__item">
+						<input class="form-check-input custom-checkbox" type="checkbox" name="Yes" id="form4" value="Хочу">
+						<label class="form-check-label " for="form4">
+							<p>
+								Хочу получать информацию о спецпредложениях и новых <br> моделях столов
+							</p>
+						</label>
+					</div>
+					<div class="popup__item">
+						<input class="form-check-input custom  custom-checkbox" type="checkbox" name="formKitchen" id="form21"
+							value="Подтверждаю">
+						<label class="form-check-label " for="form21">
+							<p>
+								Подтверждаю согласие на <a href="policy.html" target="_blank"> Обработку персональных
+									данных</a>
+							</p>
+						</label>
+					</div>
+					<button disabled id="form__button" class="btn popup__btn" data-submit3>
+						Отправить заявку
+					</button>
+				</form>
+			</div>
+		</section>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<img src="img/f.svg" alt="" class="footer__logo">
+				<form action="success.php" class="footer__form js-form q" id="popupResult" method="post">
+					<input type="email" placeholder="Подписаться на рассылку" name="email" class="form__field" required="">
+					<button class="btn footer__btn" data-submit>
+						Подписаться
+					</button>
+				</form>
+				<div class="footer__content q">
+					<div class="footer__item">
+						<p>
+							Серия Блэкборт
+						</p>
+						<ul>
+							<li>
+								<a href="#">
+									Выбор профессионалов
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Конструкция
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Управление электропитанием
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Дисплей состояния компьютера
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Подсветка
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Пространство для хранения
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Характеристики
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<p>
+							О нас
+						</p>
+						<ul>
+							<li>
+								<a href="#">
+									Контакты
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Производство
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<p>
+							Заказ
+						</p>
+						<ul>
+							<li>
+								<a href="order.html">
+									Сделать заказ
+								</a>
+							</li>
+							<li>
+								<a href="#" class="pp">
+									Обратный звонок
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom q">
+					<p>
+						© 2024 Проект компании AMG
+					</p>
+					<a href="policy.html">
+						Политика конфиденциальности
+					</a>
+				</div>
+			</div>
+		</footer>
+		<div style="display:none;">
+			<div class="box-modal" id="popup-call">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="svg">
+					</div>
+					<p class="popup__name">
+						Заявка <br class="pt"> на обратный звонок
+					</p>
+					<form action="success2.php" class="popup__form js-form2" id="popupResult2" method="post">
+						<input type="text" placeholder="Имя" class="form__field" name="name" required="">
+						<input type="tel" placeholder="Телефон" class="tel form__field" name="tel" required="">
+						<p class="txt txt3">
+							Номер телефона, по которому вам удобно принять обратный звонок.</p>
+						<p class="txt txt2">Вы можете позвонить сами по бесплатному номеру <span> 8– 800–200-12-69</span></p>
+						<textarea name="text" name="text" placeholder="Комментарий по времени звонка"
+							class="form__field"></textarea>
+						<p class="txt txt2 txt3">
+							Время звонка оператора <span> с 10 до 20 часов</span>. <br> В комментарии вы можете указать город
+							или часовой
+							пояс,
+							чтобы оператор <br> позвонил в период времени, соответствующий вашему поясу. Также, можно <br>
+							оставить
+							пожелание по времени звонка
+						</p>
+						<div class="popup__item">
+							<input class="form-check-input custom-checkbox" type="checkbox" name="formKitchen" id="form1"
+								value="Подтверждаю">
+							<label class="form-check-label " for="form1">
+								<p>
+									Подтверждаю согласие на <a href="policy.html" target="_blank"> Обработку персональных
+										данных</a>
+								</p>
+							</label>
+						</div>
+						<button disabled id="form__button" class="btn popup__btn" data-submit2>
+							Отправить заявку
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div style="display:none;">
+			<div class="box-modal" id="popup-thank">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="svg">
+					</div>
+					<p class="popup__title">
+						Спасибо!
+					</p>
+					<p class="popup__text">
+						Ваша заявка <br class="mob"> на обратный звонок <br>
+						принята
+					</p>
+				</div>
+			</div>
+		</div>
+		<div style="display:none;">
+			<div class="box-modal" id="popup-thank2">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="svg">
+					</div>
+					<p class="popup__title">
+						Спасибо!
+					</p>
+					<p class="popup__text">
+						Ваша заявка
+						принята
+					</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			ymaps.ready(init);
+
+			function init() {
+				var myMap = new ymaps.Map("map", {
+					// Центр карты, указываем коордианты
+					center: [51.604463, 39.251976],
+					// Масштаб, тут все просто
+					zoom: 11,
+					// Отключаем все элементы управления
+					controls: []
+				});
+
+				var myGeoObjects = [];
+
+				// Наша метка, указываем коордианты
+				myGeoObjects = new ymaps.Placemark([51.604463, 39.251976], {
+					balloonContentBody: 'BETON',
+				}, {
+					iconLayout: 'default#image',
+					// Путь до нашей картинки
+					iconImageHref: 'img/map.svg',
+					// Размер по ширине и высоте
+					iconImageSize: [50, 70],
+					// Смещение левого верхнего угла иконки относительно
+					// её «ножки» (точки привязки).
+					iconImageOffset: [-35, -35]
+				});
+
+				var clusterer = new ymaps.Clusterer({
+					clusterDisableClickZoom: false,
+					clusterOpenBalloonOnClick: false,
+				});
+
+				clusterer.add(myGeoObjects);
+				myMap.geoObjects.add(clusterer);
+				// Отлючаем возможность изменения масштаба
+				myMap.behaviors.disable('scrollZoom');
+
+			}
+		</script>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+		<script src="js/all.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.js"></script>
+		<!-- Подключен файл-валидатор, для проверки формы на заполненность  -->
+		<script type="text/javascript"
+			src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+</body>
+
+</html>

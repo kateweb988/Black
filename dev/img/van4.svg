@@ -1,0 +1,28 @@
+<svg width="238" height="238" viewBox="0 0 238 238" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_16_39)">
+<rect x="60" y="60" width="118" height="118" rx="20" fill="#1F2B99"/>
+</g>
+<circle cx="18" cy="18" r="17" transform="matrix(-1 0 0 1 93 117)" stroke="white" stroke-width="2"/>
+<circle cx="81" cy="135" r="4" transform="rotate(180 81 135)" fill="white"/>
+<circle cx="69" cy="135" r="4" transform="rotate(180 69 135)" fill="white"/>
+<rect width="4" height="5" rx="2" transform="matrix(-1 0 0 1 77 118)" fill="white"/>
+<rect width="4" height="5" rx="2" transform="matrix(-1 0 0 1 77 147)" fill="white"/>
+<circle cx="18" cy="18" r="17" transform="matrix(-1 0 0 1 137 117)" stroke="white" stroke-width="2"/>
+<circle cx="125" cy="135" r="4" transform="rotate(180 125 135)" fill="white"/>
+<circle cx="113" cy="135" r="4" transform="rotate(180 113 135)" fill="white"/>
+<rect width="4" height="5" rx="2" transform="matrix(-1 0 0 1 121 118)" fill="white"/>
+<rect width="4" height="5" rx="2" transform="matrix(-1 0 0 1 121 147)" fill="white"/>
+<circle cx="18" cy="18" r="17" transform="matrix(-1 0 0 1 181 117)" stroke="white" stroke-width="2"/>
+<circle cx="169" cy="135" r="4" transform="rotate(180 169 135)" fill="white"/>
+<circle cx="157" cy="135" r="4" transform="rotate(180 157 135)" fill="white"/>
+<rect width="4" height="5" rx="2" transform="matrix(-1 0 0 1 165 118)" fill="white"/>
+<rect width="4" height="5" rx="2" transform="matrix(-1 0 0 1 165 147)" fill="white"/>
+<path d="M33.2894 106.436C32.9681 105.771 33.4518 105 34.1896 105H175.746C176.129 105 176.479 105.219 176.646 105.564L204.711 163.564C205.032 164.229 204.548 165 203.81 165H62.2541C61.8706 165 61.5209 164.781 61.3539 164.436L33.2894 106.436Z" stroke="#3347FF" stroke-width="2"/>
+<defs>
+<filter id="filter0_f_16_39" x="0" y="0" width="238" height="238" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="30" result="effect1_foregroundBlur_16_39"/>
+</filter>
+</defs>
+</svg>

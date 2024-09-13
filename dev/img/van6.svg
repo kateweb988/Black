@@ -1,0 +1,28 @@
+<svg width="238" height="238" viewBox="0 0 238 238" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_16_44)">
+<rect x="60" y="60" width="118" height="118" rx="20" fill="#1F2B99"/>
+</g>
+<circle cx="18" cy="18" r="18" transform="matrix(-1 0 0 1 115 118)" fill="#3347FF"/>
+<circle cx="18" cy="18" r="18" transform="matrix(-1 0 0 1 131 118)" fill="#3347FF"/>
+<circle cx="18" cy="18" r="18" transform="matrix(-1 0 0 1 147 118)" fill="#3347FF"/>
+<circle cx="18" cy="18" r="18" transform="matrix(-1 0 0 1 163 118)" fill="#3347FF"/>
+<circle cx="18" cy="18" r="18" transform="matrix(-1 0 0 1 179 118)" fill="#3347FF"/>
+<path d="M101.4 152.421C104.868 151.492 107.952 149.488 110.211 146.698C112.471 143.908 113.789 140.475 113.977 136.89C114.165 133.305 113.213 129.752 111.257 126.741C109.302 123.73 106.444 121.416 103.092 120.129" stroke="white" stroke-width="2"/>
+<path d="M117.4 152.421C120.868 151.492 123.952 149.488 126.211 146.698C128.471 143.908 129.789 140.475 129.977 136.89C130.165 133.305 129.213 129.752 127.257 126.741C125.302 123.73 122.444 121.416 119.092 120.129" stroke="white" stroke-width="2"/>
+<path d="M133.4 152.421C136.868 151.492 139.952 149.488 142.211 146.698C144.471 143.908 145.789 140.475 145.977 136.89C146.165 133.305 145.213 129.752 143.257 126.741C141.302 123.73 138.444 121.416 135.092 120.129" stroke="white" stroke-width="2"/>
+<path d="M149.4 152.421C152.868 151.492 155.952 149.488 158.211 146.698C160.471 143.908 161.789 140.475 161.977 136.89C162.165 133.305 161.213 129.752 159.257 126.741C157.302 123.73 154.444 121.416 151.092 120.129" stroke="white" stroke-width="2"/>
+<path d="M165.4 152.421C168.868 151.492 171.952 149.488 174.211 146.698C176.471 143.908 177.789 140.475 177.977 136.89C178.165 133.305 177.213 129.752 175.257 126.741C173.302 123.73 170.444 121.416 167.092 120.129" stroke="white" stroke-width="2"/>
+<circle cx="18" cy="18" r="17" transform="matrix(-1 0 0 1 97 118)" stroke="white" stroke-width="2"/>
+<circle cx="85" cy="136" r="4" transform="rotate(180 85 136)" fill="white"/>
+<circle cx="73" cy="136" r="4" transform="rotate(180 73 136)" fill="white"/>
+<rect width="4" height="5" rx="2" transform="matrix(-1 0 0 1 81 119)" fill="white"/>
+<rect width="4" height="5" rx="2" transform="matrix(-1 0 0 1 81 148)" fill="white"/>
+<rect x="36" y="93" width="166" height="86" rx="39" stroke="#3347FF" stroke-width="2"/>
+<defs>
+<filter id="filter0_f_16_44" x="0" y="0" width="238" height="238" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="30" result="effect1_foregroundBlur_16_44"/>
+</filter>
+</defs>
+</svg>
